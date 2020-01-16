@@ -1,6 +1,6 @@
 package com.hans;
 
-import com.hans.filters.SecurityInterceptor;
+import com.hans.interceptor.SecurityInterceptor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

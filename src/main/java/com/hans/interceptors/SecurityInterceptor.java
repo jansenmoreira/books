@@ -1,4 +1,4 @@
-package com.hans.filters;
+package com.hans.interceptor;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
