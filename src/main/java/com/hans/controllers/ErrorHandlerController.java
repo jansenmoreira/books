@@ -21,7 +21,7 @@ public class ErrorHandlerController {
     }
 
     @ExceptionHandler(value = { HttpException.class })
-    public ResponseEntity<Error> handleSectionNotFoundException(HttpException exception) {
+    public ResponseEntity<Error> handleHttpException(HttpException exception) {
         return new ResponseEntity<Error>(new Error(exception.getMessage()), exception.getCode());
     }
 
